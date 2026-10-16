@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {
+    float moveSpeed = 0.01f;
+    float steerSpeed = 0.2f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("1st message to show");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Repeating text");
-        PrintMessage();
+        transform.Rotate(0,0, steerSpeed);
+        transform.Translate(0, moveSpeed, 0);
     }
 
-    void PrintMessage()
-    {
-        Debug.Log("This message will print when method is called");
-    }
+    
+
 }

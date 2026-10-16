@@ -216,13 +216,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79509758}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.43883017, w: 0.89857006}
-  m_LocalPosition: {x: 6.87, y: -0.23, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.44, y: 0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 52.059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &276272423
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 276272425}
   - component: {fileID: 276272424}
   - component: {fileID: 276272426}
+  - component: {fileID: 276272427}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -291,7 +292,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.45313016, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -322,11 +323,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276272423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a981871c38589054bb25eb14b17bbba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Worksheet01
+--- !u!114 &276272427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276272423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89dce3aaf936ed4d928a2ae91f1d216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Worksheet02
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
